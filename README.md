@@ -1,0 +1,3 @@
+This repository demonstrates a common runtime error in Ada programming: the Constraint_Error that occurs when an array index is out of bounds.  The Ada compiler does not detect this at compile time, instead, the error is raised during program execution if the index is outside the declared range of the array.
+
+The `bug.ada` file contains code that attempts to access an array element with an index outside the valid range. The `bugSolution.ada` file demonstrates how to prevent this error by adding input validation and proper range checks.  Understanding array index boundaries is crucial for writing robust Ada code.
